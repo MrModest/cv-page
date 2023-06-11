@@ -208,4 +208,13 @@ table {
   .job {
     break-inside: avoid;
   }
+
+  @page { 
+    margin: 0; 
+    margin-top: 10mm; 
+  }
+
+  body {
+    margin-top: 10mm; 
+  }
 }
