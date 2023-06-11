@@ -204,6 +204,14 @@ table {
   margin-top: 10px;
 }
 
+.print-only {
+  display: none;
+}
+
+.mirrored {
+  transform: scaleX(-1);
+}
+
 @media print {
   .job {
     break-inside: avoid;
@@ -216,5 +224,13 @@ table {
 
   body {
     margin-top: 10mm; 
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  .spacer {
+    visibility: hidden
   }
 }
