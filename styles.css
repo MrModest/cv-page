@@ -233,4 +233,8 @@ table {
   .spacer {
     visibility: hidden
   }
+
+  .footer {
+    page-break-after: always;
+  }
 }
