@@ -23,6 +23,7 @@ a:hover{
 
 h2 {
   font-size: 0.8em;
+  margin: 0;
 }
 
 table {
@@ -104,14 +105,15 @@ table {
 }
 
 .blue-title {
-  margin-bottom: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   font-weight: bold;
   color: #3c78be;
   font-size: 1.1em;
 }
 
 .job {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   padding-top: 5px;
   border-top: 0.5px gray solid;
   display: flex;
@@ -186,7 +188,7 @@ table {
 
 .sidebar {
   color: #666666;
-  width: 230px;
+  width: 220px;
   display: flex;
   padding-top: 0;
   border-top: 0.7px solid gray;
@@ -219,11 +221,11 @@ table {
 
   @page { 
     margin: 0; 
-    margin-top: 10mm; 
+    margin-top: 0mm; 
   }
 
   body {
-    margin-top: 10mm; 
+    margin-top: 0mm; 
   }
 
   .print-only {
