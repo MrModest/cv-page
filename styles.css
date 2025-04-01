@@ -127,7 +127,8 @@ table {
 }
 
 .job-header-logo {
-  height: 30px;
+  max-height: 30px;
+  max-width: 30px;
   padding: 3px;
 }
 
